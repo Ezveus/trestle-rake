@@ -13,14 +13,14 @@
 <% end %>
 
 <div class="rake-tasks-grid">
-  <% @rake_tasks.each do |task| %>
+  <% @rake.each do |task| %>
     <div class="rake-tasks-task-name">
-      <%= t(task, scope: 'trestle_rake_tasks', default: task) %>
+      <%= t(task, scope: 'trestle_rake', default: task) %>
     </div>
     <div class="rake-tasks-task-spawn">
       <%= form_tag admin.path(:run_task), id: "update_#{task}_form", method: :post, class: 'form-inline mb-2', style: 'width: 100%;' do %>
         <%= hidden_field_tag('task', task, id: "task_#{task}", class: 'form-check-input') %>
-        <%= submit_tag(t('run', scope: 'trestle_rake_tasks', default: 'Run'), class: 'btn btn-success') %>
+        <%= submit_tag(t('run', scope: 'trestle_rake', default: 'Run'), class: 'btn btn-success') %>
       <% end %>
     </div>
   <% end %>

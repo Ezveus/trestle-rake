@@ -1,13 +1,13 @@
-# Trestle Rake Tasks (trestle-rake_tasks)
+# Trestle Rake Tasks (trestle-rake)
 
 > Add an interface to Trestle to spawn Rake tasks
 
 ## Getting Started
 
-These instructions assume you have a working Trestle application. To integrate trestle-rake_tasks, first add it to your application's Gemfile:
+These instructions assume you have a working Trestle application. To integrate trestle-rake, first add it to your application's Gemfile:
 
 ```ruby
-gem 'trestle-rake_tasks'
+gem 'trestle-rake'
 ```
 
 Run `bundle install`, and then restart your Rails server.
