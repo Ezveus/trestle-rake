@@ -1,0 +1,5 @@
+en:
+  trestle_rake_tasks:
+    run: Run
+    run_success: "The task '%{task_name}' was launched"
+    unknown_task: "The task '%{task_name}' does not exists"

@@ -1,0 +1,17 @@
+.rake-tasks-header-button {
+    float: right;
+    margin: 6px 16px;
+    font-size: 26px;
+}
+
+.rake-tasks-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: auto;
+    margin-top: 1rem;
+}
+
+.rake-tasks-grid .rake-tasks-task-name {
+    margin-left: 1rem;
+}
